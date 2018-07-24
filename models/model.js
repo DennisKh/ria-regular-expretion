@@ -1,7 +1,7 @@
 const {
   languages, regions, sities, banks, near_metro, streets, sdannyye,
    stroyashchiyesya, types, klasses, roommate, rassrochka, remont
-} = require('./data');
+} = require('../helpers/data');
 
 
 module.exports = function regular(url) {

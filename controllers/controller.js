@@ -1,5 +1,5 @@
-const reg_exp = require('./model');
-const test = require('./test');
+const reg_exp = require('../models/model');
+const test = require('../helpers/test');
 module.exports = function main_testing() {
   for (var i = 0; i < test.length; i++) {
     let url = test[i];

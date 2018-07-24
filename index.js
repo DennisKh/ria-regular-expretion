@@ -1,2 +1,2 @@
-const main = require('./controller');
+const main = require('./controllers/controller');
 main()
